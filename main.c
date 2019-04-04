@@ -14,7 +14,7 @@ int main() {
         if ((text[i]>64) && (text[i]<91)) { //keeps value the same if it is not a letter
             encrypt[i]= text[i] + key; 
             if (encrypt[i]>91) {
-            encrypt[i]=encrypt[i]-26; // makes
+            encrypt[i]=encrypt[i]-26; // put letter to proper value the ascii value goes outside captial letters
             }
 
         }
