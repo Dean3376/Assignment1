@@ -23,7 +23,7 @@ int main() {
 
  i=i+1;
 }
-printf("%s", encrypt);
+printf("this is the encrypted string: %s", encrypt);
 
     return 0;
 }
