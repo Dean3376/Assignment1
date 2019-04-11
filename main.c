@@ -3,7 +3,7 @@
 int main() {
     char text[] = "zzzzzzzzz";
     int key=4, n = 0,i=0;
-    n = sizeof(text); // gets the amount of characters in original message
+    n = sizeof(text); // gets the amount of characters in original message  
     char encrypt[n]; // creates array to store the encryped message
     printf("%d\n",n);
     while (i<n) {
