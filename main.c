@@ -1,11 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-    char text[] = "zzzzzzzzz";
-    int key=4, n = 0,i=0;
-    n = sizeof(text); // gets the amount of characters in original message  
+    char text[] = "";
+    char cipher[] = "QWERTYUIOPASDFGHJKLZXCVBNM";
+    int key=4, n = 0,i=60,x=0,y;
+    n = sizeof(text); // gets the amount of characters in original message
     char encrypt[n]; // creates array to store the encryped message
     printf("%d\n",n);
+    
+    while (x<n) {
+        encrpty
+    }
+        
+    
     while (i<n) {
         if ((text[i]<123) && (text[i]>96)) { //changes lowercase into uppercase
             text[i]= text[i]-32;
